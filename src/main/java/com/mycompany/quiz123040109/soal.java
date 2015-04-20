@@ -22,6 +22,7 @@ public class soal {
     }
     
     public int faktorial(int bil){
+       System.out.println("hello 2");
         int hasil = 1;
         for (int i = 0; i < bil; i++) {
             hasil *= 1;
