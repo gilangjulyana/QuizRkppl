@@ -31,6 +31,7 @@ public class soal {
     }
     
     public int perkalian(int bilA, int bilB){
+        System.out.println("hello 3");
         return bilA * bilB;
     }
 }
