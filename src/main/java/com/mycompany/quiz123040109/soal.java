@@ -10,6 +10,7 @@ package com.mycompany.quiz123040109;
  */
 public class soal {
     public int pangkat(int bil, int pangkat){
+       System.out.println("hello 1");
         int hasil = 0;
         int n = 1;
         while(n <=pangkat){
@@ -17,6 +18,7 @@ public class soal {
             hasil *=bil;
         }
         return hasil;
+        
     }
     
     public int faktorial(int bil){
